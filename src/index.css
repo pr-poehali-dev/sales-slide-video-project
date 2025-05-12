@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -96,7 +98,16 @@
   }
 
   body {
-    @apply bg-black text-white;
+    @apply bg-black text-white font-montserrat;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-playfair;
   }
 }
 
