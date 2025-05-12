@@ -20,24 +20,14 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Hero Section with Video Background */}
       <section className="relative h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <video
-            className="w-full h-full object-cover opacity-60"
-            autoPlay
-            muted
-            loop
-            poster="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070"
-          >
-            <source src="https://www.example.com/video.mp4" type="video/mp4" />
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070"
-              alt="Фон курса обучения"
-              className="w-full h-full object-cover"
-            />
-          </video>
-          <div className="absolute inset-0 bg-black/70 z-10"></div>
+          <img
+            src="https://cdn.poehali.dev/files/4a153095-9cb3-4d94-8f73-4dd4090b86e2.jpg"
+            alt="Золотая роботизированная рука с камерой"
+            className="w-full h-full object-cover opacity-80"
+          />
+          <div className="absolute inset-0 bg-black/50 z-10"></div>
         </div>
 
         <div className="container mx-auto px-4 z-20 relative text-white">
