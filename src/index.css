@@ -108,6 +108,19 @@
   .animate-fade-in {
     animation: fadeIn 1.5s ease-in-out;
   }
+
+  .bg-gold-gradient {
+    background: linear-gradient(
+      to right,
+      #bf953f,
+      #fcf6ba,
+      #b38728,
+      #fbf5b7,
+      #aa771c
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 @keyframes fadeIn {

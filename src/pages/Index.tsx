@@ -41,10 +41,18 @@ const Index = () => {
         </div>
 
         <div className="container mx-auto px-4 z-20 relative text-white">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
-              Стань экспертом в продажах за 30 дней
+          <div className="mb-12">
+            <h1 className="text-6xl md:text-7xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-500 to-amber-600 animate-fade-in">
+              Creator AI
             </h1>
+            <p className="text-xl text-amber-200">
+              Искусство продаж в цифровую эпоху
+            </p>
+          </div>
+          <div className="max-w-3xl">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in">
+              Стань экспертом в продажах за 30 дней
+            </h2>
             <p className="text-xl md:text-2xl mb-8 animate-fade-in">
               Практические навыки, которые увеличат твой доход на 300% уже в
               первый месяц
